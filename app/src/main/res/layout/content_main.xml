@@ -15,5 +15,12 @@
         android:layout_centerHorizontal="true"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:typeface="sans"/>
+        android:typeface="sans"
+        android:id="@+id/headertext"/>
+    <ListView
+        android:layout_below="@id/headertext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"/>
+
 </RelativeLayout>
